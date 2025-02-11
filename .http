@@ -1,0 +1,38 @@
+### 포스트 생성
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+  "title": "test3",
+  "content": "test3",
+  "tags": ["test", "test2"]
+}
+
+### 포스트 조회
+GET http://localhost:3000/posts?limit=50
+
+### 포스트 상세 조회
+GET http://localhost:3000/posts/5
+
+### 댓글 조회
+GET http://localhost:3000/posts/2/comments
+
+### 좋아요 토글
+POST http://localhost:3000/likes/5
+Content-Type: application/json
+
+{
+  "userId": 1
+}
+
+### 댓글 수정
+PATCH http://localhost:3000/comments/1
+Content-Type: application/json
+
+{
+  "content": "좋은 글입니다~!"
+}
+
+### 댓글 조회
+GET http://localhost:3000/posts/5/comments
+
