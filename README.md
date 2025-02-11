@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+![image](https://github.com/user-attachments/assets/1c8cbc9d-eb4b-4a51-a811-af98099e7feb)
 
-## Getting Started
 
-First, run the development server:
+## 1. About
+OnBoard는 개발자들이 코딩 과정에서 겪은 문제나 고민을 공유하고, 해결되지 않은 질문을 자유롭게 나눌 수 있는 커뮤니티입니다.
+사이트 이름인 OnBoard는 게시판(Board)과 '승선'(On Board)의 중의적 의미를 담고 있으며, 돛의 모양은 태그를 형상화하였습니다.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 2. Skill
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
+<img src="https://img.shields.io/badge/zustand-orange?style=for-the-badge&logo=zustand&logoColor=white">
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white)
+![Zod](https://img.shields.io/badge/zod-%233068b7.svg?style=for-the-badge&logo=zod&logoColor=white)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 3. Architecture
+![image](https://github.com/user-attachments/assets/44324365-bcec-442a-b35b-83aa89e897fe)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 4. feature
+1. SSR 데이터 최적화
+2. 무한 스크롤 페이지네이션
+3. 상태 관리 최적화(zustand, react query)
+4. 이미지 및 SEO 최적화
+5. 반응형 디자인
+- 성능 지표  
+![image](https://github.com/user-attachments/assets/365959a6-4965-4cda-813d-8d9b683f88f7)
